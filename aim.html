@@ -12,7 +12,117 @@
   </head>
   <body>
 
-    <h1 class=" h1 bd-title">Hello</h1>
+    <header>
+      <nav variant="dark" class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">CSEC Español</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation" >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >Home </a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/aim.html">Aim <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false" >
+                Get Started
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Browse</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Take it a step further</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Join</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container" style="margin: 15px 0px;">
+      <div class="row">
+
+        <!-- Should be visible on all screens -->
+        <div class="col-sm col-md-8 col-lg-8">
+
+        </div>
+
+        <!-- Visible only on md or lg -->
+        <div class="d-none d-lg-block col-sm col-md-4 col-lg-4">
+
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <style media="screen">
+        .footer {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          height: auto; /* Set the fixed height of the footer here */
+          line-height: 60px; /* Vertically center the text there */
+        }
+      </style>
+
+      <div class="navbar-dark bg-dark" role="navigation">
+        <ul class="navbar-nav">
+          <!-- Cheating browsers here. I'll be using Bootstrap grid to align the nav items -->
+          <div class="container">
+            <div class="row">
+              <div class="col-sm col-md-3 col-lg-3">
+                <li class="nav-item lower-nav-item">
+                  <a class="nav-link" href="#">Conditions of Use</a>
+                </li>
+              </div>
+              <div class="col-sm col-md-3 col-lg-3">
+                <li class="nav-item lower-nav-item ">
+                  <a class="nav-link" href="#">Privacy Policy and Cookies</a>
+                </li>
+              </div>
+              <div class="col-sm  col-md-3 col-lg-3">
+                <li class="nav-item lower-nav-item ">
+                  <a class="nav-link" href="#">Feedback Centre</a>
+                </li>
+              </div>
+              <div class="col-sm  col-md-3 col-lg-3">
+                <li class="nav-item lower-nav-item ">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </footer>
 
     <!-- Scripts -->
     <script src="./assets/vendor/jQuery/jquery-3.3.3.js"></script>
