@@ -2,7 +2,19 @@
 
 
 @media only screen and (max-width: 600px) {
+
+  /* Push the navbar brand over a bit to center align */
+  .navbar-brand {
+    margin-left: 105px;
+  }
+
+  /* Center all the navigation links */
   .nav-link {
     text-align: center;
   }
+
+  .lower-nav-item {
+    margin: -15px !important;
+  }
+
 }
