@@ -99,5 +99,19 @@
     <script src="./assets/vendor/jQuery/jquery-3.3.3.js"></script>
     <script src="./assets/vendor/popper/popper-1.14.7.js"></script>
     <script src="./assets/vendor/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Request permission -->
+    <script type="text/javascript">
+      Notification.requestPermission(function(result) {
+        if (result === 'denied') {
+          console.log('Permission wasn\'t granted. Allow a retry.');
+          return;
+        } else if (result === 'default') {
+          console.log('The permission request was dismissed.');
+          return;
+        }
+        console.log('Permission was granted for notifications');
+      });
+    </script>
   </body>
 </html>
