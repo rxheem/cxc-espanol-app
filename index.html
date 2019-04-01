@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-JM" translate="yes">
+<html lang="en-JM" translate="yes" dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,7 +16,7 @@
       <nav variant="dark" class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">CSEC Español </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon">-</span>
+          <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -50,6 +50,50 @@
         </div>
       </nav>
     </header>
+
+
+    <footer class="footer">
+      <style media="screen">
+        .footer {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          height: auto; /* Set the fixed height of the footer here */
+          line-height: 60px; /* Vertically center the text there */
+        }
+      </style>
+
+      <div class="navbar-dark bg-dark" role="navigation">
+        <ul class="navbar-nav">
+
+          <!-- Cheating browsers here. I'll be using Bootstrap grid to align the nav items -->
+          <div class="container">
+            <div class="row">
+              <div class="col-sm col-md-3 col-lg-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Terms and Agreement</a>
+                </li>
+              </div>
+              <div class="col-sm col-md-3 col-lg-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Privacy Policy and Cookies</a>
+                </li>
+              </div>
+              <div class="col-sm  col-md-3 col-lg-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Feedback</a>
+                </li>
+              </div>
+              <div class="col-sm  col-md-3 col-lg-3">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </footer>
 
     <!-- Scripts -->
     <script src="./assets/vendor/jQuery/jquery-3.3.3.js"></script>
