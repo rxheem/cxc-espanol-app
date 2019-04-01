@@ -1,34 +1,81 @@
 <!DOCTYPE html>
 <html lang="en-JM" translate="yes" dir="ltr">
   <head>
+    <style id="stndz-style"></style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>CXC Espanol</title>
 
-    <!-- Foundation CSS -->
-    <link rel="stylesheet" href="./assets/prod/css/master.css" />
-    <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap-4.3.css" />
-  </head>
-  <body>
+    <meta name="keywords" content="your, tags" />
+    <meta name="description" content="150 words" />
+    <meta name="subject" content="your website's subject" />
+    <meta name="copyright" content="company name" />
+    <meta name="language" content="ES" />
+    <meta name="robots" content="index,follow" />
 
+    <meta name="abstract" content="" />
+    <meta name="topic" content="" />
+    <meta name="summary" content="" />
+    <meta name="Classification" content="Education" />
+    <meta name="author" content="Raheem McDonald, raheemmcdonald@icloud.com" />
+    <meta name="designer" content="Raheem McDonald" />
+    <meta name="copyright" content="Raheem McDonald" />
+    <meta name="reply-to" content="raheemmcdonald@icloud.com" />
+    <meta name="owner" content="Raheem McDonald" />
+    <meta name="directory" content="submission" />
+    <meta name="category" content="Education" />
+    <meta name="coverage" content="Worldwide" />
+    <meta name="distribution" content="Global" />
+    <meta name="rating" content="General" />
+    <meta name="revisit-after" content="7 days" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./assets/prod/css/master.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/vendor/bootstrap/css/bootstrap-4.3.css"
+    />
+  </head>
+  <body class="flex-xl-nowrap">
     <header>
       <nav variant="dark" class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">CSEC Español </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#">CSEC Español</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="/aim.html">Aim</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
                 Get Started
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -51,7 +98,6 @@
       </nav>
     </header>
 
-
     <footer class="footer">
       <style media="screen">
         .footer {
@@ -65,12 +111,11 @@
 
       <div class="navbar-dark bg-dark" role="navigation">
         <ul class="navbar-nav">
-
           <!-- Cheating browsers here. I'll be using Bootstrap grid to align the nav items -->
           <div class="container">
             <div class="row">
               <div class="col-sm col-md-3 col-lg-3">
-                <li class="nav-item lower-nav-item" >
+                <li class="nav-item lower-nav-item">
                   <a class="nav-link" href="#">Conditions of Use</a>
                 </li>
               </div>
@@ -99,18 +144,19 @@
     <script src="./assets/vendor/jQuery/jquery-3.3.3.js"></script>
     <script src="./assets/vendor/popper/popper-1.14.7.js"></script>
     <script src="./assets/vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="./assets/vendor/push/push.js"></script>
 
     <!-- Request permission -->
     <script type="text/javascript">
       Notification.requestPermission(function(result) {
-        if (result === 'denied') {
-          console.log('Permission wasn\'t granted. Allow a retry.');
+        if (result === "denied") {
+          console.log("Permission wasn't granted. Allow a retry.");
           return;
-        } else if (result === 'default') {
-          console.log('The permission request was dismissed.');
+        } else if (result === "default") {
+          console.log("The permission request was dismissed.");
           return;
         }
-        console.log('Permission was granted for notifications');
+        console.log("Permission was granted for notifications");
       });
     </script>
   </body>
