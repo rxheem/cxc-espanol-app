@@ -50,7 +50,7 @@ input[type=submit]:hover {
   }
 
   /* Center all the navigation links */
-  .nav-link {
+  .nav-link .dropdown-menu {
     text-align: center;
   }
 

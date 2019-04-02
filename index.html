@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>CSEC Español</title>
+    <title>Home | CSEC Español</title>
 
     <meta name="keywords" content="your, tags" />
     <meta name="description" content="150 words" />
@@ -33,116 +33,13 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Cache-Control" content="no-cache" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./assets/prod/css/master.css" />
-    <link
-      rel="stylesheet"
-      href="./assets/vendor/bootstrap/css/bootstrap-4.3.css"
-    />
   </head>
   <body>
-    <header>
-      <nav variant="dark" class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">CSEC Español</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/aim.html">Aim</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Get Started
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Explore</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Take it a step further</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Join</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-
-    <footer class="footer">
-      <style media="screen">
-        .footer {
-          bottom: 0;
-          width: 100%;
-          height: auto; /* Set the fixed height of the footer here */
-          line-height: 60px; /* Vertically center the text there */
-        }
-      </style>
-
-      <div class="navbar-dark bg-dark" role="navigation">
-        <ul class="navbar-nav">
-          <!-- Cheating browsers here. I'll be using Bootstrap grid to align the nav items -->
-          <div class="container">
-            <div class="row">
-              <div class="col-sm col-md-3 col-lg-3">
-                <li class="nav-item lower-nav-item">
-                  <a class="nav-link" href="#">Conditions of Use</a>
-                </li>
-              </div>
-              <div class="col-sm col-md-3 col-lg-3">
-                <li class="nav-item lower-nav-item ">
-                  <a class="nav-link" href="#">Privacy Policy and Cookies</a>
-                </li>
-              </div>
-              <div class="col-sm  col-md-3 col-lg-3">
-                <li class="nav-item lower-nav-item ">
-                  <a class="nav-link" href="#">Feedback Centre</a>
-                </li>
-              </div>
-              <div class="col-sm  col-md-3 col-lg-3">
-                <li class="nav-item lower-nav-item ">
-                  <a class="nav-link" href="#">Contact</a>
-                </li>
-              </div>
-            </div>
-          </div>
-        </ul>
-      </div>
-    </footer>
 
     <!-- Scripts -->
     <script src="./assets/vendor/jQuery/jquery-3.3.3.js"></script>
     <script src="./assets/vendor/popper/popper-1.14.7.js"></script>
-    <script src="./assets/vendor/bootstrap/js/bootstrap.js"></script>
     <script src="./assets/vendor/push/push.js"></script>
 
     <!-- Request permission -->
@@ -155,7 +52,14 @@
           console.log("The permission request was dismissed.");
           return;
         }
-        console.log("Permission was granted for notifications");
+        Push.create("Awesome!", {
+            body: "Thanks for allowing notification",
+            timeout: 4000,
+            onClick: function () {
+                window.focus();
+                this.close();
+            }
+        });
       });
     </script>
   </body>
