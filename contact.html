@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Explore | CSEC Español</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="../assets/prod/css/master.css" />
-    <link rel="stylesheet" href="../assets/vendor/bootstrap/css/bootstrap-4.3.css"/>
+    <title>Contact | CSEC Español</title>
+    <link rel="stylesheet" href="./assets/prod/css/master.css" />
+    <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap-4.3.css" />
   </head>
   <body>
 
+    <!-- Header -->
     <header>
       <nav variant="dark" class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">CSEC Español</a>
@@ -62,17 +62,44 @@
               <a class="nav-link" href="#">Join</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
 
-    <main>
+    <div class="container-fluid" style="margin: 10px 0px;">
+      <div class="row">
+        <div class="col-md-6 col-md-6 col-lg-6">
+          <span>left</span>
+        </div>
+        <div class="col-md-6 col-md-6 col-lg-6">
+          <div class="container contact-container">
+            <form class="form" action="action_page.php">
 
-    </main>
+              <label for="fname">Full Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
+              <label for="">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+
+              <div class="form-group">
+                <br />
+                <label for="subject">Message</label>
+                <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+              </div>
+
+              <input type="submit" value="Submit">
+
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
     <footer class="footer">
       <style media="screen">
         .footer {
@@ -115,10 +142,9 @@
     </footer>
 
     <!-- Scripts -->
-    <script src="../assets/vendor/jQuery/jquery-3.3.3.js"></script>
-    <script src="../assets/vendor/popper/popper-1.14.7.js"></script>
-    <script src="../assets/vendor/bootstrap/js/bootstrap.js"></script>
-    <script src="../assets/vendor/push/push.js"></script>
-
+    <script src="./assets/vendor/jQuery/jquery-3.3.3.js"></script>
+    <script src="./assets/vendor/popper/popper-1.14.7.js"></script>
+    <script src="./assets/vendor/bootstrap/js/bootstrap.js"></script>
+    <script src="./assets/vendor/push/push.js"></script>
   </body>
 </html>
