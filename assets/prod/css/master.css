@@ -1,0 +1,11 @@
+
+#main-menu {
+  margin-top: 10px;
+  background: ##2491ffb5;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu {
+    text-align: center;
+  }
+}
