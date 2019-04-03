@@ -26,6 +26,10 @@ header input {
   color: #fff;
 }
 
+.bg-dark {
+  background-color: #343a40 !important;
+}
+
 @media screen and (max-width: 40em) {
 
   /* Reducing the margins on mobile because they dnt appear inline */
