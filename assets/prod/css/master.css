@@ -1,14 +1,34 @@
 
-.no-js .top-bar {
-  display: none;
+
+/* I'mnot sure where in Foundation the menu is set
+so I'm applying th style to all child element of the footer */
+header *{
+ background-color:  #50A2FF !important;
 }
 
-@media screen and (min-width: 40em) {
-  .no-js .top-bar {
-    display: block;
+/* #50A2FF doesn't really suite an input background */
+header input {
+  background-color: white !important;
+}
+
+.nav-link {
+  color: #E1E1E1;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+@media screen and (max-width: 40em) {
+
+  /* Reducing the margins on mobile because they dnt appear inline */
+  .top-bar li {
+    margin: 0px -5px !important;
   }
 
-  .no-js .title-bar {
-    display: none;
+  .nav-link {
+    color: #fff;
+    background-color: inherit;
   }
+
 }
