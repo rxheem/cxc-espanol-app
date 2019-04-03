@@ -11,6 +11,10 @@ header input {
   background-color: white !important;
 }
 
+.menu-text {
+  color: #fff !important;
+}
+
 .nav-link {
   color: #E1E1E1;
 }
