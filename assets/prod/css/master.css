@@ -1,4 +1,7 @@
 
+body {
+  background-color: #fff !important;
+}
 
 /* I'mnot sure where in Foundation the menu is set
 so I'm applying th style to all child element of the footer */
