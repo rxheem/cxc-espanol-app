@@ -30,7 +30,6 @@
     <meta name="rating" content="General" />
 
     <link rel="stylesheet" href="./assets/vendor/foundation-6.5.1/css/foundation.css" />
-    <link rel="stylesheet" href="./assets/prod/css/master.css" />
     <link rel="stylesheet" href="/assets/vendor/css/animate.css">
 
     <!-- Using these components from Bootstrap -->
@@ -40,8 +39,13 @@
     <link rel="stylesheet" href="./assets/vendor/css/bootstrap-4.3.1/container.css">
     <link rel="stylesheet" href="./assets/vendor/css/bootstrap-4.3.1/table.css">
     <link rel="stylesheet" href="./assets/vendor/css/bootstrap-4.3.1/card.css">
+    <link rel="stylesheet" href="./assets/vendor/css/bootstrap-4.3.1/grid.css">
+
+    <!-- Master CSS to override all styles -->
+    <link rel="stylesheet" href="./assets/prod/css/master.css" />
   </head>
   <body>
+    <!-- Header -->
     <header class="animated flipInY">
       <div class="top-bar" id="main-menu">
         <div class="top-bar-left">
@@ -73,11 +77,28 @@
     <div class="bs-container">
 
       <!-- News Letter -->
-      <div class="bs-container-fluid">
-        <h5>News Letter</h5>
+      <div class="card remove-border-color">
+        <div class="card-body">
+          <h5 class="h5 text-center">Join Our News Letter</h5>
+          <p class="card-title text-center">Subscribe to our news letter to stay up to date with new lessons, tutorials and updates.</p>
+
+          <form class="center-on-small" method="post">
+            <div class="row">
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <label class="center-on-small" for="">Full Name</label>
+                <input type="text" name="" value="" placeholder="Enter your full name">
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-6">
+                <label class="center-on-small" for="">Email</label>
+                <input type="text" name="" value="" placeholder="Enter you email address">
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
     </div>
 
+    <!-- Footer -->
     <footer class="fixed-bottom">
       <style media="screen">
         footer {

@@ -14,6 +14,10 @@ header input {
   background-color: white !important;
 }
 
+.remove-border-color {
+  border-color: #fff !important;
+}
+
 .menu-text {
   color: #fff !important;
 }
@@ -31,6 +35,11 @@ header input {
 }
 
 @media screen and (max-width: 40em) {
+
+  .center-on-small {
+    text-align: center !important */;
+  }
+
   /* Reducing the margins on mobile because they dnt appear inline */
   .top-bar li {
     margin: 0px -5px !important;
