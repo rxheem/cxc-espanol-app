@@ -1,6 +1,6 @@
 
 body {
-  background-color: #fff !important;
+  background-color: #FFF !important;
 }
 
 /* I'mnot sure where in Foundation the menu is set
@@ -32,6 +32,10 @@ header input {
 
 .bg-dark {
   background-color: #343a40 !important;
+}
+
+.push-down-on-large {
+  margin-top: 10px !important;
 }
 
 @media screen and (max-width: 40em) {
