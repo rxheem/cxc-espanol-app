@@ -3,6 +3,19 @@ body {
   background-color: #FFF !important;
 }
 
+#soical-media-links {
+  float: right;
+}
+
+#soical-media-links img {
+  max-width: 20px ;
+  margin: 0px -7px;
+}
+
+.clear-fix{
+  clear: both;
+}
+
 /* I'mnot sure where in Foundation the menu is set
 so I'm applying th style to all child element of the footer */
 header * {
