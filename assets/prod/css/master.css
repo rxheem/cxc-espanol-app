@@ -35,7 +35,7 @@ header input {
 }
 
 .push-down-on-large {
-  margin-top: 10px !important;
+  padding-top: 10px !important;
 }
 
 @media screen and (max-width: 40em) {
