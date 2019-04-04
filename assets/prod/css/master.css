@@ -5,8 +5,8 @@ body {
 
 /* I'mnot sure where in Foundation the menu is set
 so I'm applying th style to all child element of the footer */
-header *{
- background-color:  #50A2FF !important;
+header * {
+  background-color: #50a2ff !important;
 }
 
 /* #50A2FF doesn't really suite an input background */
@@ -19,7 +19,7 @@ header input {
 }
 
 .nav-link {
-  color: #E1E1E1;
+  color: #e1e1e1;
 }
 
 .nav-link:hover {
@@ -31,7 +31,6 @@ header input {
 }
 
 @media screen and (max-width: 40em) {
-
   /* Reducing the margins on mobile because they dnt appear inline */
   .top-bar li {
     margin: 0px -5px !important;
@@ -41,5 +40,4 @@ header input {
     color: #fff;
     background-color: inherit;
   }
-
 }
