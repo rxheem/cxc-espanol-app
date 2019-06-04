@@ -1,20 +1,35 @@
 import React, { Component } from 'react';
-import { withRouter } from 'react-router-dom'
+import { withRouter, Switch, Route } from 'react-router-dom';
+import Container from 'react-bootstrap/Container';
+
+// Views imports
+import Footer from './views/Footer';
+import MainNavigation from './views/MainNavigation';
 
 class App extends Component {
-
-  constructor(props){
+  constructor(props) {
     super(props);
 
-    this.state = {}
+    this.state = {};
   }
 
   render() {
     return (
-      <div className="App">
-        <div />
+      <div className='App'>
+        {/* Main Naiviagtion */}
+        <Route route='/' component={MainNavigation} />
+
+        <Switch>
+          <span />
+        </Switch>
+
+        {/* Footer */}
+        <Route route='/' component={Footer} />
+
+        {/* Provides styling for the app component */}
+        <style jsx>{``}</style>
       </div>
-    )
+    );
   }
 }
 
