@@ -5,26 +5,24 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 class Home extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
 
-    this.state = {}
+    this.state = {};
   }
 
-  render(){
+  render() {
     return (
       <React.Fragment>
-
         <Container fluid={false}>
           <span />
         </Container>
 
-        <Container fluid={false}>
+        <Container fluid={true}>
           <span />
         </Container>
-
       </React.Fragment>
-    )
+    );
   }
 }
 

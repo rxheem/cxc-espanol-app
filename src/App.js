@@ -9,6 +9,7 @@ import MainNavigation from './views/MainNavigation';
 
 // Components
 import Home from './components/Home';
+import Vocabulary from './components/Vocabulary';
 
 class App extends Component {
   constructor(props) {
@@ -25,6 +26,7 @@ class App extends Component {
 
         <Switch>
           <Route exact path='/' component={Home} />
+          <Route exact path='/vocab/' component={Vocabulary} />
         </Switch>
       </div>
     );
