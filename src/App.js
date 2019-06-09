@@ -20,14 +20,14 @@ class App extends Component {
     return (
       <div className='App'>
         {/* Main Naiviagtion */}
-        <Route route='/' component={MainNavigation} />
+        <Route path='/' component={MainNavigation} />
 
         <Switch>
-          <Route route='/' component={Home} />
+          <Route exact path='/' component={Home} />
         </Switch>
 
         {/* Footer */}
-        <Route route='/' component={Footer} />
+        <Route path='/' component={Footer} />
       </div>
     );
   }
