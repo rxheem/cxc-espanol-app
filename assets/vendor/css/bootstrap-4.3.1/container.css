@@ -1,0 +1,41 @@
+.bs-container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 576px) {
+  .bs-container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bs-container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .b-scontainer {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .bs-container {
+    max-width: 1140px;
+  }
+}
+
+.bs-container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}

@@ -15,17 +15,18 @@ const MainNavigation = props => {
   return (
     <React.Fragment>
       {/* Navbar */}
-      <Navbar bg='light' variant='light' expand='lg'>
+      <Navbar bg='dark' variant='dark' expand='lg'>
         <Navbar.Toggle aria-controls='main-navbar-nav' />
 
         <Navbar.Collapse id='main-navbar-nav'>
           <Nav className='ml-auto'>
-            <NavItem title='Vocabulary' to='/' />
+            <NavItem title='Vocabulary' to='/vocab/' />
+            <NavItem title='Tenses' to='/tenses/' />
             <NavItem title='' to='/' />
             <NavItem title='' to='/' />
             <NavItem title='' to='/' />
-            <NavItem title='' to='/' />
-            <NavItem title='' to='/' />
+            <NavItem title='Orals' to='/orals/' />
+            <NavItem title='Tutoring' to='/tutoring/' />
             <NavItem title='Conact' to='/' />
           </Nav>
         </Navbar.Collapse>
