@@ -6,6 +6,9 @@ import Container from 'react-bootstrap/Container';
 import Footer from './views/Footer';
 import MainNavigation from './views/MainNavigation';
 
+// Components
+import Home from './components/Home'
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -20,14 +23,11 @@ class App extends Component {
         <Route route='/' component={MainNavigation} />
 
         <Switch>
-          <span />
+          <Route route='/' component={Home} />
         </Switch>
 
         {/* Footer */}
         <Route route='/' component={Footer} />
-
-        {/* Provides styling for the app component */}
-        <style jsx>{``}</style>
       </div>
     );
   }

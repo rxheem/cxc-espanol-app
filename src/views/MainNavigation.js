@@ -10,7 +10,7 @@ import Form from 'react-bootstrap/Form';
 import Badge from 'react-bootstrap/Badge';
 
 // Router
-import { withRouter, Link } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 
 const MainNavigation = props => {
   return (
@@ -72,12 +72,3 @@ const MainNavigation = props => {
 };
 
 export default withRouter(MainNavigation);
-
-/* Navigation Item */
-export const NavItem = props => {
-  return (
-    <Link className='nav-link' to={props.to}>
-      {props.title}
-    </Link>
-  );
-};
