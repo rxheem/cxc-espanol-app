@@ -23,7 +23,7 @@ const MainNavigation = props => {
           <Nav className='ml-auto' as='ul'>
             <Nav.Link href='/vocab/'>Vocabulary</Nav.Link>
             <NavDropdown title='Tenses' id='tenses-nav-dropdown'>
-              <NavDropdown.Item href='/tenses/present-tense/'>
+              <NavDropdown.Item href='/tenses/present/'>
                 Present Tense
               </NavDropdown.Item>
               <NavDropdown.Item href='/tenses/present-progressive/'>
