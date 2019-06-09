@@ -6,6 +6,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 import 'normalize.css/normalize.css';
 import 'bootstrap/dist/css/bootstrap.css';
+import 'animate.css';
 
 ReactDOM.render(
   <Router>
