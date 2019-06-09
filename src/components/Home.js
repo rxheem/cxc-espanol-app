@@ -1,13 +1,28 @@
 import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container'
+import Container from 'react-bootstrap/Container';
+import ScrollReveal from 'scrollreveal';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 class Home extends Component {
+  constructor(props){
+    super(props);
+
+    this.state = {}
+  }
+
   render(){
     return (
       <React.Fragment>
-        <Container>
+
+        <Container fluid={false}>
           <span />
         </Container>
+
+        <Container fluid={false}>
+          <span />
+        </Container>
+
       </React.Fragment>
     )
   }
