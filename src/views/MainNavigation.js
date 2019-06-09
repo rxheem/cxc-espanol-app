@@ -49,17 +49,7 @@ const MainNavigation = props => {
                 </Badge>
               </NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title='Orals' id='orals-nav-dropdown'>
-              <NavDropdown.Item href='#action/3.1'>Action</NavDropdown.Item>
-              <NavDropdown.Item href='#action/3.2'>
-                Another action
-              </NavDropdown.Item>
-              <NavDropdown.Item href='#action/3.3'>Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href='#action/3.4'>
-                Separated link
-              </NavDropdown.Item>
-            </NavDropdown>
+            <Nav.Link href='/orals/'>Orals</Nav.Link>
             <Nav.Link href='/practice-question/'>Practice Questions</Nav.Link>
           </Nav>
         </Navbar.Collapse>
