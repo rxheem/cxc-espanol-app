@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 
 // Views imports
 import Footer from './views/Footer';
-import MiniContactView from './views/miniContactView/MiniContactView';
+import MiniSocialView from './views/miniSocialView/MiniSocialView';
 import MainNavigation from './views/MainNavigation';
 
 // Components
@@ -20,7 +20,7 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <Route path='/' component={MiniContactView} />
+        <Route path='/' component={MiniSocialView} />
         <Route path='/' component={MainNavigation} />
 
         <Switch>
