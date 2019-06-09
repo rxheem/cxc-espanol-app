@@ -19,14 +19,38 @@ const MainNavigation = props => {
         <Navbar.Toggle aria-controls='main-navbar-nav' />
 
         <Navbar.Collapse id='main-navbar-nav'>
-          <Nav className='ml-auto'>
-            <NavItem title='Vocabulary' to='/vocab/' />
+          <Nav className='ml-auto' as='ul'>
+            <Nav.Link href='/vocab/'>Vocab</Nav.Link>
+            <Nav.Link href='/tenses/'>Tenses</Nav.Link>
+            <NavDropdown title='Tenses' id='basic-nav-dropdown'>
+              <NavDropdown.Item href='#action/3.1'>Action</NavDropdown.Item>
+              <NavDropdown.Item href='#action/3.2'>
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href='#action/3.3'>Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href='#action/3.4'>
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href='/orals/'>Orals</Nav.Link>
+            <NavDropdown title='Orals' id='basic-nav-dropdown'>
+              <NavDropdown.Item href='#action/3.1'>Action</NavDropdown.Item>
+              <NavDropdown.Item href='#action/3.2'>
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href='#action/3.3'>Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href='#action/3.4'>
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown>
             <NavItem title='Tenses' to='/tenses/' />
+            <Nav.Link href='//' />
             <NavItem title='' to='/' />
             <NavItem title='' to='/' />
             <NavItem title='' to='/' />
             <NavItem title='Orals' to='/orals/' />
-            <NavItem title='Tutoring' to='/tutoring/' />
             <NavItem title='Conact' to='/' />
           </Nav>
         </Navbar.Collapse>
