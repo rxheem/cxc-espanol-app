@@ -3,10 +3,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 const Footer = props => {
-
-  const centerNavStyle = {
-
-  }
+  // Style to center the navigation
+  const centerNavStyle = {};
 
   return (
     <footer>

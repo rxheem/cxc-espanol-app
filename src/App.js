@@ -4,10 +4,11 @@ import Container from 'react-bootstrap/Container';
 
 // Views imports
 import Footer from './views/Footer';
+import MiniContactView from './views/miniContactView/MiniContactView';
 import MainNavigation from './views/MainNavigation';
 
 // Components
-import Home from './components/Home'
+import Home from './components/Home';
 
 class App extends Component {
   constructor(props) {
@@ -19,7 +20,7 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        {/* Main Naiviagtion */}
+        <Route path='/' component={MiniContactView} />
         <Route path='/' component={MainNavigation} />
 
         <Switch>

@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import Container from 'react-bootstrap/Container'
 
 class Home extends Component {
   render(){
     return (
-      <div>
-        <span></span>
-      </div>
+      <React.Fragment>
+        <Container>
+          <span />
+        </Container>
+      </React.Fragment>
     )
   }
 }
