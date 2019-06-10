@@ -13,7 +13,6 @@ class Home extends Component {
     return (
       <React.Fragment>
         <div className='container'>
-          <span>Made with Bulma</span>
         </div>
 
         <div fluid={true}>

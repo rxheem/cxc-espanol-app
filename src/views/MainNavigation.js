@@ -9,12 +9,8 @@ const MainNavigation = props => {
       {/* Navbar */}
       <nav className='navbar' role='navigation' aria-label='main navigation'>
         <div className='navbar-brand'>
-          <a className='navbar-item' href='https://bulma.io'>
-            <img
-              src='https://bulma.io/images/bulma-logo.png'
-              width='112'
-              height='28'
-            />
+          <a className='navbar-item' href='/'>
+            <h1 className='title is-4'>CXC Español</h1>
           </a>
 
           <a
@@ -37,16 +33,31 @@ const MainNavigation = props => {
             <div className='navbar-item has-dropdown is-hoverable'>
               <a className='navbar-link'>Verb Tenses</a>
               <div className='navbar-dropdown'>
-                <a className='navbar-item'>Present Tense</a>
-                <a className='navbar-item'>Present Progressive</a>
-                <a className='navbar-item'>Preterite Tense</a>
-                <a className='navbar-item'>Imperfect Tense</a>
-                <a className='navbar-item'>Conditional Tense</a>
-                <a className='navbar-item'>Future Tense</a>
-                <a className='navbar-item'>Subjunctive Mood</a>
+                <a className='navbar-item' href='/vocab/'>
+                  Present Tense
+                </a>
+                <a className='navbar-item' href='/tenses/present-progressive/'>
+                  Present Progressive
+                </a>
+                <a className='navbar-item' href='/tenses/preterite/'>
+                  Preterite Tense
+                </a>
+                <a className='navbar-item' href='/tenses/imperfect/'>
+                  Imperfect Tense
+                </a>
+                <a className='navbar-item' href='/tenses/conditional/'>
+                  Conditional Tense
+                </a>
+                <a className='navbar-item' href='/tenses/future/'>
+                  Future Tense
+                </a>
+                <a className='navbar-item' href='/tenses/subjunctive/'>
+                  Subjunctive Mood
+                </a>
                 <hr className='navbar-divider' />
-                <a className='navbar-item'>
-                  <i class='fas fa-bug' />Report an issue
+                <a className='navbar-item' href='/report-an-issue/'>
+                  <i class='fas fa-bug' />
+                  Report an issue
                 </a>
               </div>
             </div>
