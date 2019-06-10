@@ -48,49 +48,49 @@ const MainNavigation = props => {
                 <a className='navbar-item' href='/vocab/'>
                   <i
                     className='fas fa-certificate'
-                    style={{ color: 'coral', marginRight: '5px' }}
+                    style={{ color: 'coral', marginRight: '7px' }}
                   />
                   Present Tense
                 </a>
                 <a className='navbar-item' href='/tenses/present-progressive/'>
                   <i
                     className='fas fa-certificate'
-                    style={{ color: 'blue', marginRight: '5px' }}
+                    style={{ color: 'blue', marginRight: '7px' }}
                   />
                   Present Progressive
                 </a>
                 <a className='navbar-item' href='/tenses/preterite/'>
                   <i
                     className='fas fa-certificate'
-                    style={{ color: 'green', marginRight: '5px' }}
+                    style={{ color: 'green', marginRight: '7px' }}
                   />
                   Preterite Tense
                 </a>
                 <a className='navbar-item' href='/tenses/imperfect/'>
                   <i
                     className='fas fa-certificate'
-                    style={{ color: 'yellow', marginRight: '5px' }}
+                    style={{ color: 'yellow', marginRight: '7px' }}
                   />
                   Imperfect Tense
                 </a>
                 <a className='navbar-item' href='/tenses/conditional/'>
                   <i
                     className='fas fa-certificate'
-                    style={{ color: 'orange', marginRight: '5px' }}
+                    style={{ color: 'orange', marginRight: '7px' }}
                   />
                   Conditional Tense
                 </a>
                 <a className='navbar-item' href='/tenses/future/'>
                   <i
                     className='fas fa-certificate'
-                    style={{ color: 'purple', marginRight: '5px' }}
+                    style={{ color: 'purple', marginRight: '7px' }}
                   />
                   Future Tense
                 </a>
                 <a className='navbar-item' href='/tenses/subjunctive/'>
                   <i
                     className='fas fa-certificate'
-                    style={{ color: 'red', marginRight: '5px' }}
+                    style={{ color: 'red', marginRight: '7px' }}
                   />
                   Subjunctive Mood
                 </a>
@@ -98,7 +98,7 @@ const MainNavigation = props => {
                 <a className='navbar-item' href='/report-an-issue/'>
                   <i
                     className='fas fa-bug'
-                    style={{ color: 'brown', marginRight: '5px' }}
+                    style={{ color: 'brown', marginRight: '7px' }}
                   />
                   Report an issue
                 </a>

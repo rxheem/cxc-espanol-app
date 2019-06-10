@@ -8,16 +8,7 @@ class Vocabulary extends Component {
   render(){
     return (
       <React.Fragment>
-
         <div>
-          <span>Vocabulary</span>
-
-
-        </div>
-
-        <div fluid={true}>
-          <span>Vocabulary</span>
-
 
         </div>
       </React.Fragment>
