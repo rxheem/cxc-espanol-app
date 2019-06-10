@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { withRouter, Switch, Route } from 'react-router-dom';
-import Container from 'react-bootstrap/Container';
 
 // Views imports
 import Footer from './views/Footer';

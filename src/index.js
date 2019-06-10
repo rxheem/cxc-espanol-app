@@ -5,8 +5,8 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 import 'normalize.css/normalize.css';
-import 'bootstrap/dist/css/bootstrap.css';
 import 'animate.css';
+import 'bulma/css/bulma.css'
 
 ReactDOM.render(
   <Router>

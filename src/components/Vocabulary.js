@@ -9,14 +9,17 @@ class Vocabulary extends Component {
     return (
       <React.Fragment>
 
-        <Container>
+        <div>
           <span>Vocabulary</span>
-        </Container>
 
-        <Container fluid={true}>
+
+        </div>
+
+        <div fluid={true}>
           <span>Vocabulary</span>
-        </Container>
 
+
+        </div>
       </React.Fragment>
     )
   }

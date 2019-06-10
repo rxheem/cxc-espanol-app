@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import Container from 'react-bootstrap/Container';
 import ScrollReveal from 'scrollreveal';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 class Home extends Component {
   constructor(props) {
@@ -14,13 +12,13 @@ class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <Container fluid={false}>
+        <div>
           <span />
-        </Container>
+        </div>
 
-        <Container fluid={true}>
-          <span />
-        </Container>
+        <div fluid={true}>
+          <span>Made with Bulma</span>
+        </div>
       </React.Fragment>
     );
   }
