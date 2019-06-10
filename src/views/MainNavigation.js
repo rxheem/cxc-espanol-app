@@ -112,7 +112,10 @@ const MainNavigation = props => {
               Orals
             </a>
             <a className='navbar-item' href='/exercises/'>
-              <i className="fas fa-walking" style={{ color: 'pink', marginRight: '5px' }}></i>
+              <i
+                className='fas fa-walking'
+                style={{ color: 'pink', marginRight: '5px' }}
+              />
               Exercises
             </a>
           </div>
