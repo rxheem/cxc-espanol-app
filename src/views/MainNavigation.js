@@ -10,7 +10,7 @@ const MainNavigation = props => {
       <nav className='navbar' role='navigation' aria-label='main navigation'>
         <div className='navbar-brand'>
           <a className='navbar-item' href='/'>
-            <h1 className='title is-4'>CXC Español</h1>
+            <h1 className='title is-4'>CSEC Español</h1>
           </a>
 
           <a
@@ -28,41 +28,77 @@ const MainNavigation = props => {
 
         <div id='navbarBasicExample' className='navbar-menu'>
           <div className='navbar-start'>
-            <a className='navbar-item'>Home</a>
-            <a className='navbar-item'>Vocabulary</a>
+            <a className='navbar-item' href='/'>
+              Home
+            </a>
+            <a className='navbar-item' href='/vocab/'>
+              Vocabulary
+            </a>
             <div className='navbar-item has-dropdown is-hoverable'>
               <a className='navbar-link'>Verb Tenses</a>
               <div className='navbar-dropdown'>
                 <a className='navbar-item' href='/vocab/'>
+                  <i
+                    class='fas fa-certificate'
+                    style={{ color: 'coral', marginRight: '5px' }}
+                  />
                   Present Tense
                 </a>
                 <a className='navbar-item' href='/tenses/present-progressive/'>
+                  <i
+                    class='fas fa-certificate'
+                    style={{ color: 'blue', marginRight: '5px' }}
+                  />
                   Present Progressive
                 </a>
                 <a className='navbar-item' href='/tenses/preterite/'>
+                  <i
+                    class='fas fa-certificate'
+                    style={{ color: 'green', marginRight: '5px' }}
+                  />
                   Preterite Tense
                 </a>
                 <a className='navbar-item' href='/tenses/imperfect/'>
+                  <i
+                    class='fas fa-certificate'
+                    style={{ color: 'yellow', marginRight: '5px' }}
+                  />
                   Imperfect Tense
                 </a>
                 <a className='navbar-item' href='/tenses/conditional/'>
+                  <i
+                    class='fas fa-certificate'
+                    style={{ color: 'orange', marginRight: '5px' }}
+                  />
                   Conditional Tense
                 </a>
                 <a className='navbar-item' href='/tenses/future/'>
+                  <i
+                    class='fas fa-certificate'
+                    style={{ color: 'purple', marginRight: '5px' }}
+                  />
                   Future Tense
                 </a>
                 <a className='navbar-item' href='/tenses/subjunctive/'>
+                  <i
+                    class='fas fa-certificate'
+                    style={{ color: 'red', marginRight: '5px' }}
+                  />
                   Subjunctive Mood
                 </a>
                 <hr className='navbar-divider' />
                 <a className='navbar-item' href='/report-an-issue/'>
-                  <i class='fas fa-bug' />
+                  <i class='fas fa-bug' style={{ color: 'brown', marginRight: '5px' }}/>
                   Report an issue
                 </a>
               </div>
             </div>
-            <a className='navbar-item'>Orals</a>
-            <a className='navbar-item'>Exercises</a>
+            <a className='navbar-item' href='/orals/'>
+              Orals
+            </a>
+            <a className='navbar-item' href='/exercises/'>
+              Exercises
+            </a>
           </div>
 
           <div className='navbar-end'>
