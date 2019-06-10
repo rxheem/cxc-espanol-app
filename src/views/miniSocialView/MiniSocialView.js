@@ -7,7 +7,7 @@ import YTIcon from './social_icons/youtube_social_squircle_red.png';
 const MiniSocialView = () => {
   return (
     <div>
-      <section id='MiniSocialView'>
+      <section id='MiniSocialView' className='container'>
         <a href='/' target='_blank'>
           <img src={FBIcon} alt='Facebook icon' className='social-icon' />
         </a>

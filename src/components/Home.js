@@ -12,12 +12,12 @@ class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <div>
-          <span />
+        <div className='container'>
+          <span>Made with Bulma</span>
         </div>
 
         <div fluid={true}>
-          <span>Made with Bulma</span>
+
         </div>
       </React.Fragment>
     );
