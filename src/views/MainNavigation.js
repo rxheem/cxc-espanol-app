@@ -3,6 +3,8 @@ import React from 'react';
 // Router
 import { withRouter } from 'react-router-dom';
 
+import MiniSocialView from './miniSocialView/MiniSocialView';
+
 const MainNavigation = props => {
   return (
     <React.Fragment>
@@ -122,12 +124,7 @@ const MainNavigation = props => {
 
           <div className='navbar-end'>
             <div className='navbar-item'>
-              <div className='buttons'>
-                <a className='button is-primary'>
-                  <strong>Sign up</strong>
-                </a>
-                <a className='button is-light'>Log in</a>
-              </div>
+              <MiniSocialView />
             </div>
           </div>
         </div>

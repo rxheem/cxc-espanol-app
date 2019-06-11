@@ -20,7 +20,6 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <Route path='/' component={MiniSocialView} />
         <Route path='/' component={MainNavigation} />
 
         <Switch>
