@@ -9,7 +9,7 @@ class Vocabulary extends Component {
       <React.Fragment>
         <div>
           <br />
-          <div className='container animated fadeIn'>
+          <div className='container'>
             <div className='columns'>
               <div className='column is-one-quarter'>First column</div>
 
@@ -30,62 +30,138 @@ class Vocabulary extends Component {
                       <tr>
                         <td>To walk</td>
                         <td>Andar</td>
-                        <td>Voy andando al colegio todos los días.</td>
+                        <td>
+                          Voy{' '}
+                          <span style={{ color: 'green', fontWeight: 'bold' }}>
+                            andando
+                          </span>{' '}
+                          al colegio todos los días.
+                        </td>
                       </tr>
                       <tr>
                         <td>To be</td>
                         <td>Estar</td>
-                        <td></td>
+                        <td>
+                          Este pastel de chocolate{' '}
+                          <span style={{ color: 'green', fontWeight: 'bold' }}>
+                            está
+                          </span>{' '}
+                          delicioso.
+                        </td>
                       </tr>
                       <tr>
                         <td>To be</td>
                         <td>Ser</td>
-                        <td></td>
+                        <td>
+                          Sus ojos{' '}
+                          <span style={{ color: 'green', fontWeight: 'bold' }}>
+                            son
+                          </span>{' '}
+                          azules.
+                        </td>
                       </tr>
                       <tr>
                         <td>To have</td>
                         <td>Tener</td>
-                        <td></td>
+                        <td>
+                          El lunes{' '}
+                          <span style={{ color: 'green', fontWeight: 'bold' }}>
+                            tengo
+                          </span>{' '}
+                          una cita con el dentista.
+                        </td>
                       </tr>
                       <tr>
                         <td>To make/ do</td>
                         <td>Hacer</td>
-                        <td></td>
+                        <td>
+                          Estoy ocupado{' '}
+                          <span style={{ color: 'green', fontWeight: 'bold' }}>
+                            haciendo
+                          </span>{' '}
+                          los preparativos para la fiesta.
+                        </td>
                       </tr>
                       <tr>
                         <td>To talk, speak</td>
                         <td>Hablar</td>
-                        <td></td>
+                        <td>
+                          ¿Podemos{' '}
+                          <span style={{ color: 'green', fontWeight: 'bold' }}>
+                            hablar
+                          </span>{' '}
+                          en privado?
+                        </td>
                       </tr>
                       <tr>
                         <td>To be able to/ can</td>
                         <td>Poder</td>
-                        <td></td>
+                        <td>
+                          Mi novia{' '}
+                          <span style={{ color: 'green', fontWeight: 'bold' }}>
+                            puede
+                          </span>{' '}
+                          bailar salsa.
+                        </td>
                       </tr>
                       <tr>
                         <td>To give</td>
                         <td>Dar</td>
-                        <td></td>
+                        <td>
+                          Necesito que me{' '}
+                          <span style={{ color: 'green', fontWeight: 'bold' }}>
+                            des
+                          </span>{' '}
+                          una idea para el tema de la fiesta.
+                        </td>
                       </tr>
                       <tr>
-                        <td>To see</td>
+                        <td>To see/ watch</td>
                         <td>Ver</td>
-                        <td></td>
+                        <td>
+                          ¿Quieres{' '}
+                          <span style={{ color: 'green', fontWeight: 'bold' }}>
+                            ver
+                          </span>{' '}
+                          mi carro nuevo?
+                        </td>
                       </tr>
                       <tr>
                         <td>To know</td>
                         <td>Saber</td>
-                        <td></td>
+                        <td>
+                          Mi hijo no{' '}
+                          <span style={{ color: 'green', fontWeight: 'bold' }}>
+                            sabe
+                          </span>{' '}
+                          amarrarse los zapatos.
+                        </td>
                       </tr>
                       <tr>
                         <td>To go</td>
                         <td>Ir</td>
-                        <td></td>
+                        <td>
+                          Ayer Ana y yo{' '}
+                          <span style={{ color: 'green', fontWeight: 'bold' }}>
+                            fuimos
+                          </span>{' '}
+                          al cine.
+                        </td>
                       </tr>
                       <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
+                        <td>To need</td>
+                        <td>Necesitar</td>
+                        <td>
+                          <span style={{ color: 'green', fontWeight: 'bold' }}>
+                            Necesitan
+                          </span>{' '}
+                          salir ya si quieren alcanzar su vuelo.
+                        </td>
+                      </tr>
+                      <tr>
+                        <td />
+                        <td />
+                        <td />
                       </tr>
                     </tbody>
                   </table>
