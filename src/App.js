@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { withRouter, Switch, Route } from 'react-router-dom';
+import $ from 'jquery';
 
 // Views imports
 import MainNavigation from './views/MainNavigation';

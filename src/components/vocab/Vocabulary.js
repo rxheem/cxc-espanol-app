@@ -61,13 +61,11 @@ class Vocabulary extends Component {
         <br />
         <div className='container'>
           <h1 className='title is-3'>Vocabulary</h1>
-          <p></p>
+          <p />
           <div className='tabs is-centered'>
             <ul>
               <li id='commonVerbsTab' className='is-active'>
-                <a onClick={this.switchToCommonVerbs}>
-                  Common Verbs
-                </a>
+                <a onClick={this.switchToCommonVerbs}>Common Verbs</a>
               </li>
               <li id='commonPhrasesTab' onClick={this.switchToCommonPhrases}>
                 <a>Common Phrases</a>
