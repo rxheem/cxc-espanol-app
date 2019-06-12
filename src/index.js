@@ -6,7 +6,8 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 import 'normalize.css/normalize.css';
 import 'animate.css';
-import 'bulma/css/bulma.css'
+import 'bulma/css/bulma.css';
+import './index.css';
 
 ReactDOM.render(
   <Router>
