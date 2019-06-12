@@ -23,8 +23,6 @@ class Vocabulary extends Component {
 
     $('#commonVerbsTab').addClass(' is-active');
     $('#commonVerbsTabContent').removeClass(' is-hidden');
-
-    console.log('Switched to common verbs.');
   };
 
   switchToCommonPhrases = () => {
@@ -33,8 +31,6 @@ class Vocabulary extends Component {
 
     $('#commonPhrasesTab').addClass(' is-active');
     $('#commonPhrasesTabContent').removeClass(' is-hidden');
-
-    console.log('Switched to common phrases.');
   };
 
   switchToFalseFriends = () => {
@@ -43,8 +39,6 @@ class Vocabulary extends Component {
 
     $('#falseFriendsTab').addClass(' is-active');
     $('#falseFriendsTabContent').removeClass(' is-hidden');
-
-    console.log('Switched to false friends.');
   };
 
   removeActive() {
