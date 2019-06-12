@@ -64,15 +64,15 @@ class Vocabulary extends Component {
           <div className='tabs is-centered'>
             <ul>
               <li id='commonVerbsTab' className='is-active'>
-                <a href onClick={this.switchToCommonVerbs}>
+                <a onClick={this.switchToCommonVerbs}>
                   Common Verbs
                 </a>
               </li>
               <li id='commonPhrasesTab' onClick={this.switchToCommonPhrases}>
-                <a href>Common Phrases</a>
+                <a>Common Phrases</a>
               </li>
               <li id='falseFriendsTab' onClick={this.switchToFalseFriends}>
-                <a href>False Friends</a>
+                <a>False Friends</a>
               </li>
             </ul>
           </div>
