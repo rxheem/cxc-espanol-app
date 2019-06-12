@@ -8,6 +8,8 @@ import MainNavigation from './views/MainNavigation';
 import Home from './components/Home';
 import Vocabulary from './components/vocab/Vocabulary';
 
+// All tenses import
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -23,6 +25,8 @@ class App extends Component {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/vocab/' component={Vocabulary} />
+
+          {/* Tense */}
         </Switch>
       </div>
     );

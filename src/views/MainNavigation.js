@@ -68,6 +68,13 @@ const MainNavigation = props => {
                   />
                   Preterite Tense
                 </a>
+                <a className='navbar-item' href='/tenses/perfect/'>
+                  <i
+                    className='fas fa-certificate'
+                    style={{ color: 'pink', marginRight: '7px' }}
+                  />
+                  Perfect Tense
+                </a>
                 <a className='navbar-item' href='/tenses/imperfect/'>
                   <i
                     className='fas fa-certificate'
