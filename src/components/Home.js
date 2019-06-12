@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container';
-import ScrollReveal from 'scrollreveal';
 
 class Home extends Component {
   constructor(props) {
@@ -12,11 +10,10 @@ class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className='container'>
-        </div>
+        <div className='container' />
 
         <div fluid={true}>
-
+          <span />
         </div>
       </React.Fragment>
     );

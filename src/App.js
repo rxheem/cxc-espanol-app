@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { withRouter, Switch, Route } from 'react-router-dom';
 
 // Views imports
-import Footer from './views/Footer';
-import MiniSocialView from './views/miniSocialView/MiniSocialView';
 import MainNavigation from './views/MainNavigation';
 
 // Components

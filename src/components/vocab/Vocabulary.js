@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
-import Container from 'react-bootstrap/Container';
 import $ from 'jquery/dist/jquery';
+
+// Tabs
+import CommonVerbsContent from './tabContent/CommonVerbsContent';
 
 import { withRouter } from 'react-router-dom';
 
@@ -56,17 +58,21 @@ class Vocabulary extends Component {
   render() {
     return (
       <div>
+        <br />
         <div className='container'>
+          <h1 className='title is-3'>Vocabulary</h1>
           <div className='tabs is-centered'>
             <ul>
               <li id='commonVerbsTab' className='is-active'>
-                <a onClick={this.switchToCommonVerbs}>Common Verbs</a>
+                <a href onClick={this.switchToCommonVerbs}>
+                  Common Verbs
+                </a>
               </li>
               <li id='commonPhrasesTab' onClick={this.switchToCommonPhrases}>
-                <a>Common Phrases</a>
+                <a href>Common Phrases</a>
               </li>
               <li id='falseFriendsTab' onClick={this.switchToFalseFriends}>
-                <a>False Friends</a>
+                <a href>False Friends</a>
               </li>
             </ul>
           </div>
@@ -75,7 +81,7 @@ class Vocabulary extends Component {
           <div className='container'>
             {/* Common Verbs */}
             <div id='commonVerbsTabContent'>
-              <span />
+              <CommonVerbsContent />
             </div>
 
             {/* Common Phrases */}
