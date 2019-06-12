@@ -61,6 +61,7 @@ class Vocabulary extends Component {
         <br />
         <div className='container'>
           <h1 className='title is-3'>Vocabulary</h1>
+          <p></p>
           <div className='tabs is-centered'>
             <ul>
               <li id='commonVerbsTab' className='is-active'>

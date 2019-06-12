@@ -10,6 +10,7 @@ const CommonVerbsContent = props => {
             <th>English</th>
             <th>Spanish</th>
             <th>Example</th>
+            <th></th>
           </tr>
         </thead>
         <tbody>

@@ -47,7 +47,7 @@ const MainNavigation = props => {
             <div className='navbar-item has-dropdown is-hoverable'>
               <a className='navbar-link'>Verb Tenses</a>
               <div className='navbar-dropdown'>
-                <a className='navbar-item' href='/vocab/'>
+                <a className='navbar-item' href='/tenses/present/'>
                   <i
                     className='fas fa-certificate'
                     style={{ color: 'coral', marginRight: '7px' }}
