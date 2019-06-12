@@ -8,7 +8,7 @@ import MainNavigation from './views/MainNavigation';
 
 // Components
 import Home from './components/Home';
-import Vocabulary from './components/Vocabulary';
+import Vocabulary from './components/vocab/Vocabulary';
 
 class App extends Component {
   constructor(props) {
