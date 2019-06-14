@@ -1,7 +1,8 @@
+/* Vocabulary.js */
 import React, { Component } from 'react';
 import $ from 'jquery/dist/jquery';
 
-// Tabs
+// importing Tabs
 import CommonVerbsContent from './tabContent/CommonVerbsContent';
 
 import { withRouter } from 'react-router-dom';
@@ -13,12 +14,14 @@ class Vocabulary extends Component {
     this.state = {};
   }
 
+  // Runs after the component finishes mounting
   componentDidMount() {
     $(document).ready(function() {
-      console.log('jQuery is ready.');
+      console.log('Vocabulary component loaded successfully.');
     });
   }
 
+  // Switches focus and view to the Common Verbs tab
   switchToCommonVerbs = () => {
     this.removeActive();
     this.hideAll();
@@ -27,6 +30,7 @@ class Vocabulary extends Component {
     $('#commonVerbsTabContent').removeClass(' is-hidden');
   };
 
+  // Switches focus and view to the Common Phrases tab
   switchToCommonPhrases = () => {
     this.removeActive();
     this.hideAll();
@@ -35,24 +39,27 @@ class Vocabulary extends Component {
     $('#commonPhrasesTabContent').removeClass(' is-hidden');
   };
 
+  // Switches focus and view to the False Friends tab
   switchToFalseFriends = () => {
     this.removeActive();
     this.hideAll();
 
-    $('#falseFriendsTab').addClass(' is-active');
-    $('#falseFriendsTabContent').removeClass(' is-hidden');
+    $('#falseFriendsTab').addClass('is-active');
+    $('#falseFriendsTabContent').removeClass('is-hidden');
   };
 
+  // Removes the active class from every li
   removeActive() {
     $('li').each(function() {
-      $(this).removeClass(' is-active');
+      $(this).removeClass('is-active');
     });
   }
 
+  // Hides all the tabs by adding the is-hidden class
   hideAll() {
-    $('#commonVerbsTabContent').addClass(' is-hidden');
-    $('#commonPhrasesTabContent').addClass(' is-hidden');
-    $('#falseFriendsTabContent').addClass(' is-hidden');
+    $('#commonVerbsTabContent').addClass('is-hidden');
+    $('#commonPhrasesTabContent').addClass('is-hidden');
+    $('#falseFriendsTabContent').addClass('is-hidden');
   }
 
   render() {

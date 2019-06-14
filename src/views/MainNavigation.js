@@ -136,6 +136,7 @@ const MainNavigation = props => {
           </div>
         </div>
       </nav>
+      <br />
     </React.Fragment>
   );
 };

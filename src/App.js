@@ -10,6 +10,7 @@ import Home from './components/Home';
 import Vocabulary from './components/vocab/Vocabulary';
 
 // All tenses import
+import Tenses from './tenses/Tenses';
 import PresentTense from './tenses/present/PresentTense';
 
 class App extends Component {
@@ -29,6 +30,7 @@ class App extends Component {
           <Route exact path='/vocab/' component={Vocabulary} />
 
           {/* Tense */}
+          <Route exact path='/tenses/' component={Tenses} />
           <Route exact path='/tenses/present/' component={PresentTense} />
         </Switch>
       </div>

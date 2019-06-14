@@ -9,6 +9,9 @@ import 'animate.css';
 import 'bulma/css/bulma.css';
 import './index.css';
 
+// Bootstrap essentials
+/* Grid*/ import 'bootstrap/dist/css/bootstrap-grid.css';
+
 ReactDOM.render(
   <Router>
     <App />
