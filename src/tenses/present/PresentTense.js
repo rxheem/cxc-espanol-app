@@ -30,7 +30,7 @@ class PresentTense extends Component {
               <span>Middle</span>
             </Col>
             <Col sm={6} md={3} lg={3}>
-              <span>Ads section</span>
+              <span>Other section</span>
             </Col>
           </Row>
         </div>
