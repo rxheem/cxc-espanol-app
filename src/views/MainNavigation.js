@@ -11,14 +11,14 @@ const MainNavigation = props => {
       {/* Navbar */}
       <nav
         id='navbar'
-        className='navbar'
+        className='navbar is-black'
         role='navigation'
         aria-label='main navigation'
         style={{ position: 'fixed', top: '0', width: '100%' }}
       >
         <div className='navbar-brand'>
           <a className='navbar-item' href='/'>
-            <h1 className='title is-4'>CSEC Español</h1>
+            <h1 className='title is-4 has-text-white-bis'>CSEC Español</h1>
           </a>
 
           <a

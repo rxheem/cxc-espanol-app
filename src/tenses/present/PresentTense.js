@@ -4,6 +4,7 @@ import { Col, Row } from 'react-bootstrap';
 
 import Page from '../../pages/Page';
 import MainSection from './views/MainSection';
+import Navigation from './views/Navigation';
 import VocabularyInThisSection from './views/VocabularyInThisSection';
 
 class PresentTense extends Component {
@@ -25,7 +26,7 @@ class PresentTense extends Component {
         <div className='container-fluid'>
           <Row>
             <Col sm={6} md={3} lg={3}>
-              <span>First</span>
+              <Navigation />
             </Col>
 
             {/* middle/ main section for the data */}
