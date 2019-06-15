@@ -3,7 +3,6 @@ import React, { Fragment } from 'react';
 const AlsoRead = () => {
   return (
     <Fragment>
-      <br />
       <div>
         <h1 className='subtitle has-text-info'>Also Read</h1>
         <div style={{ marginTop: '-20px' }}>
@@ -30,9 +29,6 @@ const AlsoRead = () => {
             </li>
             <li>
               <a href='/tenses/future-tense/'>The Future Tense</a>
-            </li>
-            <li>
-              <a href='/'>How to use 'gustar'</a>
             </li>
           </ul>
         </span>
