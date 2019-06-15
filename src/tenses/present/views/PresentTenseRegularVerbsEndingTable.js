@@ -5,18 +5,6 @@ import $ from 'jquery';
 const PresentTenseRegularVerbsEndingTable = props => {
   return (
     <Fragment>
-      <br />
-      <h1 className='title is-6'>Verb Endings ~ Regular Verbs</h1>
-
-      <span>
-        It's fairly simple to comjugate a verb to the present tense in Spanish.
-      </span>
-
-      <div class='notification is-info' style={{ marginTop: '10px' }}>
-        For a refresher on how conjugation works in Spanish, you can review our
-        lesson on conjugation <a href='/blogs/how-conjugation-works/'>here</a>.
-      </div>
-
       <table className='table is-bordered is-striped is-hoverable is-fullwidth has-text-centered'>
         <thead>
           <th className='has-text-centered'>Subject Pronoun</th>
