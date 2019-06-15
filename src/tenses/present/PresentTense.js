@@ -3,6 +3,7 @@ import { withRouter } from 'react-router-dom';
 import { Col, Row } from 'react-bootstrap';
 
 import Page from '../../pages/Page';
+import MainSection from './views/MainSection';
 
 class PresentTense extends Component {
   constructor(props) {
@@ -26,8 +27,7 @@ class PresentTense extends Component {
               <span>First</span>
             </Col>
             <Col>
-              <h1 className='title is-4'>The Present Tense</h1>
-              <span>Middle</span>
+              <MainSection />
             </Col>
             <Col sm={6} md={3} lg={3}>
               <span>Other section</span>

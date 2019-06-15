@@ -7,7 +7,7 @@ const Tense = props => {
       <br />
       <p>This is tenses.</p>
     </div>
-  )
-}
+  );
+};
 
 export default withRouter(Tense);

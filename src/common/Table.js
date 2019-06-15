@@ -2,20 +2,6 @@
 
 import React from 'react';
 
-export default const Table = props => {
-  return (
-    <table className='table'>
-      {props.children}
-    </table>
-  )
-}
-
-export default THead = props => {
-  return (
-    <thead>
-      <tr>
-
-      </tr>
-    </thead>
-  )
-}
+export default (Table = props => {
+  return <table className='table'>{props.children}</table>;
+});

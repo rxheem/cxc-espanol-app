@@ -7,6 +7,7 @@ import MainNavigation from './views/MainNavigation';
 
 // Components
 import Home from './components/Home';
+import Blog from './components/Blog';
 import Vocabulary from './components/vocab/Vocabulary';
 
 // All tenses import
@@ -30,6 +31,7 @@ class App extends Component {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/vocab/' component={Vocabulary} />
+          <Route exact path='/blog/' component={Blog} />
 
           {/* Tense */}
           <Route exact path='/tenses/' component={Tenses} />
