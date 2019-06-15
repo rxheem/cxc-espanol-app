@@ -20,8 +20,10 @@ const MainSection = props => {
       <br />
       <h1 className='title is-6'>Verb Endings ~ Regular Verbs</h1>
       <span>
-        It's fairly simple to conjugate a verb to the present tense in Spanish.
+        It's fairly simple to conjugate a verb to the present tense in Spanish. Review the table below to see the correct verb ending for each subject pronoun.
       </span>
+
+      {/* Notification disclaimer */}
       <div class='notification is-info' style={{ marginTop: '10px' }}>
         For a refresher on how conjugation works in Spanish, take a look at {' '}
         <a href='/blogs/how-conjugation-works/'>this lesson</a>.
@@ -29,6 +31,7 @@ const MainSection = props => {
 
       {/* Displays the verb endings table */}
       <PresentTenseRegularVerbsEndingTable />
+
       <div>
         <span />
       </div>

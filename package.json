@@ -63,6 +63,7 @@
     "react-dom": "^16.8.6",
     "react-google-charts": "^3.0.13",
     "react-router-dom": "^5.0.0",
+    "react-youtube": "^7.9.0",
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",
     "scrollreveal": "^4.0.5",

@@ -4,6 +4,7 @@ import { Col, Row } from 'react-bootstrap';
 
 import Page from '../../pages/Page';
 import MainSection from './views/MainSection';
+import VocabularyInThisSection from './views/VocabularyInThisSection'
 
 class PresentTense extends Component {
   constructor(props) {
@@ -32,7 +33,7 @@ class PresentTense extends Component {
               <MainSection />
             </Col>
             <Col sm={6} md={3} lg={3}>
-              <span>Other section</span>
+              <VocabularyInThisSection />
             </Col>
           </Row>
         </div>

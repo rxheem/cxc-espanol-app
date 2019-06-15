@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 // Router
 import { withRouter } from 'react-router-dom';
@@ -7,7 +7,7 @@ import MiniSocialView from './miniSocialView/MiniSocialView';
 
 const MainNavigation = props => {
   return (
-    <React.Fragment>
+    <Fragment>
       {/* Navbar */}
       <nav id='navbar' className='navbar' role='navigation' aria-label='main navigation'
        style={{ position: 'fixed', top: '0', width: '100%' }}>
@@ -145,7 +145,7 @@ const MainNavigation = props => {
         </div>
       </nav>
       <br /><br /><br />
-    </React.Fragment>
+    </Fragment>
   );
 };
 
