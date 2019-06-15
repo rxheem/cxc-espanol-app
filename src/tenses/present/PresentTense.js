@@ -26,6 +26,8 @@ class PresentTense extends Component {
             <Col sm={6} md={3} lg={3}>
               <span>First</span>
             </Col>
+
+            {/* middle/ main section for the data */}
             <Col>
               <MainSection />
             </Col>

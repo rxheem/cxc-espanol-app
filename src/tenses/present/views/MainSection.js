@@ -12,10 +12,11 @@ const MainSection = props => {
       <div style={{ marginTop: '-10px' }}>
         <span>
           In Spanish, the present tense signals an action that is currently
-          going on or habitually performed.
+          going on or is habitually performed.
         </span>
       </div>
 
+      <PresentTenseRegularVerbsEndingTable />
       <div>
         <span />
       </div>
