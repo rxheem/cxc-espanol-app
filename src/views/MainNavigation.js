@@ -9,7 +9,8 @@ const MainNavigation = props => {
   return (
     <React.Fragment>
       {/* Navbar */}
-      <nav className='navbar' role='navigation' aria-label='main navigation'>
+      <nav id='navbar' className='navbar' role='navigation' aria-label='main navigation'
+       style={{ overflow: 'hidden', position: 'fixed', top: '0', width: '100%' }}>
         <div className='navbar-brand'>
           <a className='navbar-item' href='/'>
             <h1 className='title is-4'>CSEC Español</h1>
