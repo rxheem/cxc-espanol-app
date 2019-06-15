@@ -4,7 +4,7 @@ import { Col, Row } from 'react-bootstrap';
 
 import Page from '../../pages/Page';
 import MainSection from './views/MainSection';
-import VocabularyInThisSection from './views/VocabularyInThisSection'
+import VocabularyInThisSection from './views/VocabularyInThisSection';
 
 class PresentTense extends Component {
   constructor(props) {

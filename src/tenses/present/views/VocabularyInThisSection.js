@@ -24,7 +24,10 @@ const VocabularyInThisSection = props => {
         </ul>
 
         {/* Audio playback of the above words */}
-        <Audio audioSrc={CommonVerbsAudio} styles={{ padding: '0 20px', marginTop: '10px' }} />
+        <Audio
+          audioSrc={CommonVerbsAudio}
+          styles={{ padding: '0 20px', marginTop: '10px' }}
+        />
       </section>
     </aside>
   );

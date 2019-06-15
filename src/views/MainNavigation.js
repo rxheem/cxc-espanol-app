@@ -9,8 +9,13 @@ const MainNavigation = props => {
   return (
     <Fragment>
       {/* Navbar */}
-      <nav id='navbar' className='navbar' role='navigation' aria-label='main navigation'
-       style={{ position: 'fixed', top: '0', width: '100%' }}>
+      <nav
+        id='navbar'
+        className='navbar'
+        role='navigation'
+        aria-label='main navigation'
+        style={{ position: 'fixed', top: '0', width: '100%' }}
+      >
         <div className='navbar-brand'>
           <a className='navbar-item' href='/'>
             <h1 className='title is-4'>CSEC Español</h1>
@@ -144,7 +149,9 @@ const MainNavigation = props => {
           </div>
         </div>
       </nav>
-      <br /><br /><br />
+      <br />
+      <br />
+      <br />
     </Fragment>
   );
 };

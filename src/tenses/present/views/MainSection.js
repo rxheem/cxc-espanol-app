@@ -20,12 +20,14 @@ const MainSection = props => {
       <br />
       <h1 className='title is-6'>Verb Endings ~ Regular Verbs</h1>
       <span>
-        It's fairly simple to conjugate a verb to the present tense in Spanish. Review the table below to see the correct verb ending for each subject pronoun.
+        It's fairly simple to conjugate a verb to the present tense in Spanish.
+        Review the table below to see the correct verb ending for each subject
+        pronoun.
       </span>
 
       {/* Notification disclaimer */}
       <div class='notification is-info' style={{ marginTop: '10px' }}>
-        For a refresher on how conjugation works in Spanish, take a look at {' '}
+        For a refresher on how conjugation works in Spanish, take a look at{' '}
         <a href='/blogs/how-conjugation-works/'>this lesson</a>.
       </div>
 
@@ -33,9 +35,18 @@ const MainSection = props => {
       <PresentTenseRegularVerbsEndingTable />
 
       <ul style={{ listStyle: 'disc' }}>
-        <li>To conjugate an -ar verb, remove the infinitive ending (-ar) and add the ending that matches the subject.</li>
-        <li style={{ padding: '5px 0px' }}>To conjugate an -er verb, remove the infinitive ending (-er) and add the ending that matches the subject.</li>
-        <li style={{ padding: '5px 0px' }}>To conjugate an -ir verb, remove the infinitive ending (-ir) and add the ending that matches the subject.</li>
+        <li>
+          To conjugate an -ar verb, remove the infinitive ending (-ar) and add
+          the ending that matches the subject.
+        </li>
+        <li style={{ padding: '5px 0px' }}>
+          To conjugate an -er verb, remove the infinitive ending (-er) and add
+          the ending that matches the subject.
+        </li>
+        <li style={{ padding: '5px 0px' }}>
+          To conjugate an -ir verb, remove the infinitive ending (-ir) and add
+          the ending that matches the subject.
+        </li>
       </ul>
 
       <div>
