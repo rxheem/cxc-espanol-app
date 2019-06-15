@@ -10,7 +10,8 @@ import 'bulma/css/bulma.css';
 import './index.css';
 
 // Bootstrap essentials
-/* Grid*/ import 'bootstrap/dist/css/bootstrap-grid.css';
+/* Grid */  import 'bootstrap/dist/css/bootstrap-grid.css';
+/* Alerts*/ import './bootstrap-alerts.css';
 
 ReactDOM.render(
   <Router>

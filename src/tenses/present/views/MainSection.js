@@ -32,6 +32,12 @@ const MainSection = props => {
       {/* Displays the verb endings table */}
       <PresentTenseRegularVerbsEndingTable />
 
+      <ul style={{ listStyle: 'disc' }}>
+        <li>To conjugate an -ar verb, remove the infinitive ending (-ar) and add the ending that matches the subject.</li>
+        <li style={{ padding: '5px 0px' }}>To conjugate an -er verb, remove the infinitive ending (-er) and add the ending that matches the subject.</li>
+        <li style={{ padding: '5px 0px' }}>To conjugate an -ir verb, remove the infinitive ending (-ir) and add the ending that matches the subject.</li>
+      </ul>
+
       <div>
         <span />
       </div>
