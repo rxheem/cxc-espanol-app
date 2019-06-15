@@ -44,6 +44,13 @@ const MainNavigation = props => {
               />
               Vocabulary
             </a>
+            <a className='navbar-item' href='/blog/'>
+              <i
+                className='fab fa-blogger-b'
+                style={{ color: 'red', marginRight: '5px' }}
+              />
+              Blog
+            </a>
             <div className='navbar-item has-dropdown is-hoverable'>
               <a className='navbar-link'>Verb Tenses</a>
               <div className='navbar-dropdown'>
