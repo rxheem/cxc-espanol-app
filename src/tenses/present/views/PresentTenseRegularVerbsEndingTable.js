@@ -42,7 +42,7 @@ const PresentTenseRegularVerbsEndingTable = props => {
             <td className='has-text-centered'>emos</td>
             <td className='has-text-centered'>imos</td>
           </tr>
-          <tr>
+          <tr className='is-selected'>
             <th className='has-text-centered'>vosotros</th>
             <td className='has-text-centered'>áis</td>
             <td className='has-text-centered'>éis</td>
