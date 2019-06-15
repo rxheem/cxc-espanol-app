@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { Row, Col } from 'react-bootstrap';
+import $ from 'jquery';
 
 const PresentTenseRegularVerbsEndingTable = props => {
   return (
@@ -7,16 +8,22 @@ const PresentTenseRegularVerbsEndingTable = props => {
       <br />
       <h1 className='title is-6'>Verb Endings ~ Regular Verbs</h1>
 
-      <table className='table is-hoverable has-text-centered'>
+      <span>
+        It's fairly simple to comjugate a verb to the present tense in Spanish.
+      </span>
+
+      <div class='notification is-info' style={{ marginTop: '10px' }}>
+        For a refresher on how conjugation works in Spanish, you can review our
+        lesson on conjugation <a href='/blogs/how-conjugation-works/'>here</a>.
+      </div>
+
+      <table className='table is-bordered is-striped is-hoverable is-fullwidth has-text-centered'>
         <thead>
-          <th>Subject Pronoun</th>
-          <th>-ar verbs</th>
-          <th>-er verbs</th>
-          <th>-ir verbs</th>
+          <th className='has-text-centered'>Subject Pronoun</th>
+          <th className='has-text-centered'>~ar verbs</th>
+          <th className='has-text-centered'>~er verbs</th>
+          <th className='has-text-centered'>~ir verbs</th>
         </thead>
-        <tfoot>
-          <span />
-        </tfoot>
         <tbody>
           <tr>
             <th className='has-text-centered'>yo</th>
