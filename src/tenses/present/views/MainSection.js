@@ -28,7 +28,7 @@ const MainSection = props => {
       {/* Notification disclaimer */}
       <div class='notification is-info' style={{ marginTop: '10px' }}>
         For a refresher on how conjugation works in Spanish, take a look at{' '}
-        <a href='/blogs/how-conjugation-works/'>this lesson</a>.
+        <a href='/blog/how-conjugation-works/'>this lesson</a>.
       </div>
 
       {/* Displays the verb endings table */}

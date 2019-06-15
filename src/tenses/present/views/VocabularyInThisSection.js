@@ -7,12 +7,10 @@ import Audio from '../../../common/Audio';
 
 const VocabularyInThisSection = props => {
   return (
-    <aside style={{ position: 'fixed' }}>
+    <aside>
       {/* Commonly Used Adverbs */}
       <section>
-        <h1 className='subtitle has-text-info has-text-centered'>
-          Commonly Used Adverbs
-        </h1>
+        <h1 className='subtitle has-text-info'>Commonly Used Adverbs</h1>
 
         <ul style={{ listStyle: 'disc', paddingLeft: '30px' }}>
           <li>normalmente</li>
