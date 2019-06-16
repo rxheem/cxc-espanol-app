@@ -136,7 +136,7 @@ const MainNavigation = props => {
             <a className='navbar-item' href='/exercises/'>
               <i
                 className='fas fa-walking'
-                style={{ color: 'pink', marginRight: '5px' }}
+                style={{ color: 'white', marginRight: '5px' }}
               />
               Exercises
             </a>

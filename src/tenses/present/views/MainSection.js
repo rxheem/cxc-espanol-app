@@ -2,6 +2,7 @@ import React, { Fragment } from 'react';
 
 // All imports
 import PresentTenseRegularVerbsEndingTable from './PresentTenseRegularVerbsEndingTable';
+import WhenToUsePresentTense from './WhenToUsePresentTense';
 
 const MainSection = props => {
   return (
@@ -10,12 +11,13 @@ const MainSection = props => {
 
       {/* Definition */}
       <div style={{ marginTop: '-10px' }}>
-        <span>
-          In Spanish, the present tense signals an action that is currently
-          going on or is habitually performed. There are mainly four differnet
-          ways the express the present tense in Spanish, however, we will be
-          discussing the <i>simple present tense</i> in this section
-        </span>
+        <p>
+          In Spanish, the Present Tense, also called the Simple Present Tense or
+          the Present Indicative, signals an action that is currently going on
+          or is habitually performed. There are mainly four differnet ways the
+          express the present tense in Spanish, however, we will be discussing
+          the <i>simple present tense</i> in this section
+        </p>
       </div>
       <br />
       <h1 className='title is-6'>Verb Endings ~ Regular Verbs</h1>
@@ -49,9 +51,8 @@ const MainSection = props => {
         </li>
       </ul>
 
-      <div>
-        <span />
-      </div>
+      {/* When to use present tense */}
+      <WhenToUsePresentTense />
 
       <div className='container'>
         <span />

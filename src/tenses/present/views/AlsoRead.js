@@ -30,6 +30,9 @@ const AlsoRead = () => {
             <li>
               <a href='/tenses/future-tense/'>The Future Tense</a>
             </li>
+            <li>
+              <a href='/blog/ser-vs-estar/'>Ser vs. Estar</a>
+            </li>
           </ul>
         </span>
       </div>

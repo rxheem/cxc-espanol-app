@@ -49,14 +49,14 @@ const Navigation = props => {
             className='fas fa-burn'
             style={{ color: 'coral', paddingRight: '12px' }}
           />
-          <a href='#'>.</a>
+          <a href='#'>Irregular Verbs Conjugation</a>
         </li>
         <li style={{ paddingTop: '8px' }}>
           <i
             className='fas fa-burn'
             style={{ color: 'blue', paddingRight: '12px' }}
           />
-          <a href='#'>.</a>
+          <a href='#StemChangingVerbs'>Stem Changing Verbs</a>
         </li>
         <li style={{ paddingTop: '8px' }}>
           <i
